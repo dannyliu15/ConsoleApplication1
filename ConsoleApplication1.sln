@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{C1BCDFF5-66D9-45C1-8D02-1C7DB3D3F94A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BBD40BDD-C4A4-4F3C-9306-69E24500D343} = {BBD40BDD-C4A4-4F3C-9306-69E24500D343}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NctuDbLibrary", "..\..\..\..\..\Runway\C#\drive-download-20160830T232802Z\NctuDbLibrary\NctuDbLibrary.csproj", "{BBD40BDD-C4A4-4F3C-9306-69E24500D343}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{C1BCDFF5-66D9-45C1-8D02-1C7DB3D3F94A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1BCDFF5-66D9-45C1-8D02-1C7DB3D3F94A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1BCDFF5-66D9-45C1-8D02-1C7DB3D3F94A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBD40BDD-C4A4-4F3C-9306-69E24500D343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBD40BDD-C4A4-4F3C-9306-69E24500D343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBD40BDD-C4A4-4F3C-9306-69E24500D343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBD40BDD-C4A4-4F3C-9306-69E24500D343}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

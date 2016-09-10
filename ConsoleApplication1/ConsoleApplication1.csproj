@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="NctuDbLibrary">
+      <HintPath>..\..\..\..\..\..\Runway\C#\drive-download-20160830T232802Z\NctuDbLibrary\bin\Debug\NctuDbLibrary.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
